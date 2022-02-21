@@ -15,8 +15,8 @@ Write-Host  -ForegroundColor Green "Importing OSD Configuration Files"
 Import-Module OSD -Force
 
 #Start OSDCloud ZTI the RIGHT way
-Write-Host  -ForegroundColor Green "Start OSDCloud"
-Start-OSDCloudGUI -Brand "Bruker OSD"
+Write-Host  -ForegroundColor Green "Start OSD Online"
+Start-OSDCloudGUI -Brand 'Bruker-OSD-Online'
 
 #Restart from WinPE
 Write-Host  -ForegroundColor Green "Restarting in 10 seconds!"
